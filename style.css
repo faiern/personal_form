@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    background-color: rgb(4, 42, 42);
+}
+
+.photo{
+    width: 40%;
+}
+
+img{
+    max-width: 100%;
+    height: max-content;
+}
+
+.text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.intro{
+    padding-top: 20px;
+    padding-right: 200px;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: paleturquoise;
+}
+
+.form{
+    padding-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 91, 91);
+    height: 25%;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(16, 91, 91);
+}
+
+.action{
+    padding-left: 30px;
+}
+
+button {
+    border: solid black;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    font-size: 12px;
+    border: orange solid 2px;
+    background-color: yellow;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.action p {
+    margin-top: 10px;
+}
+
+.intro p {
+    padding-left: 30px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.table{
+    display: flex;
+
+}
+
+h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+input{
+    border-radius: 10px;
+    width: 250px;
+    height: 20px;
+    background-color: palegreen
+}
+
+a{
+    color: orange;
+}
